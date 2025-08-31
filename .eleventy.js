@@ -4,6 +4,7 @@ module.exports = function (eleventyConfig) {
 
   /* Assets */
   eleventyConfig.addPassthroughCopy("src/css/");
+  eleventyConfig.addPassthroughCopy("src/images/");
 
   /* Filters */
   eleventyConfig.addNunjucksFilter("date", require("./src/filters/date.js"));
