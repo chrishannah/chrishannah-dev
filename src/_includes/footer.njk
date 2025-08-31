@@ -1,0 +1,17 @@
+<footer>
+  <p>
+    Subscribe via <a href="/feed.xml">RSS</a>.
+  </p>
+  <nav class="footer-social">
+    <ul>
+      {% for item in social %}
+        <li>
+          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" aria-label="{{ item.name }}">
+            {% include "icons/" + item.icon + ".svg" %}
+            <span class="sr-only">{{ item.name }}</span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+</footer>

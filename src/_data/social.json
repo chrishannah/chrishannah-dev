@@ -1,0 +1,17 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://github.com/chrishannah",
+    "icon": "github"
+  },
+  {
+    "name": "X",
+    "url": "https://x.com/chrishannah",
+    "icon": "x"
+  },
+  {
+    "name": "Mastodon",
+    "url": "https://fosstodon.org/@chrishannah",
+    "icon": "mastodon"
+  }
+]
