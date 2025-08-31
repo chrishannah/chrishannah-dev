@@ -226,3 +226,10 @@ footer {
 .no-posts p {
     font-size: 2rem;
 }
+
+.page-views {
+    text-align: center;
+    opacity: 0.4;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
