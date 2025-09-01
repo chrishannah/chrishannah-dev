@@ -3,9 +3,14 @@ layout: base.njk
 ---
 
 <article>
-    <h2 class="post-title">{{ title }}</h2>
+  <h2 class="post-title">{{ title }}</h2>
+
+  <div class="post-meta">
     {% if date %}
-      <time datetime="{{ date }}">{{ date | date("MMMM D, YYYY") }}</time>
-    {% endif %}
-    {{ content | safe }}
+      <time datetime="{{ date }}">{{ date | date("MMMM D, YYYY") }}</time> &#8226;
+        {% endif %}
+    <span class="reading-time">{{ content | readingTime }}</>
+  </div>
+
+  {{ content | safe }}
 </article>

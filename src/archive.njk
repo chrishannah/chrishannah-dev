@@ -15,6 +15,7 @@ permalink: /archive/
       {% if post.date %}
         <span class="archive-date">
           &#8226; {{ post.date | date("MMMM D, YYYY") }}
+          &#8226; <span class="reading-time">{{ post.content | readingTime }}</>
         </span>
       {% endif %}
     </li>

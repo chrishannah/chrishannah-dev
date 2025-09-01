@@ -115,7 +115,7 @@ h2.post-title a:hover {
   color: #f28c38;
 }
 
-time {
+.post-meta {
   display: block;
   color: #606060;
   font-size: 0.9rem;
